@@ -119,34 +119,63 @@ aside{
     border: solid blueviolet 2px;
 }
 
+aside .headers{
+    margin: 0  23px ;
+}
+
 aside .headers img{
     margin-right: 20px;
 }
 .description{
-    margin: 32px auto;
+    margin: 40px auto;
     position: relative;
-    border: solid orangered 1px;
     width: 300px;
+    border: solid orangered 2px;
+
 }
 .profile{
-    height: 25%;
+    margin-top: 0;
+    height: 27%;
 }
+
+article .headers p{
+margin-top: 15px;
+color: #000000;
+font-size: 18px;
+font-weight: 400;
+line-height: 29.27px;
+}
+
+
 
 .interests{
     height: 15%;
 }
-                .interests-logo{
-                    margin: 0 25px;
-                    width: 45px;
-                    height: 46px;
-                    position: relative;
-                    display: inline-block;
-                    /* border: solid orangered 2px; */
-                }
+.interests-logo{
+    margin: 15px 25px 0 ;
+    width: 45px;
+    height: 46px;
+    position: relative;
+    display: inline-block;
+/* border: solid orangered 2px; */
+}
+.interests-text{
+        /* Style for "Biking" */
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.78px;
+}
+.gaming-text{
+    position: absolute;
+    left: -8px;
+
+}
+
 
 
 .reference{
-    height: 25%;
+    height: 27%;
 }
 .awwards{
     height: 15%;
