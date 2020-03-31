@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6, p,  ul, li {
 
 
 body{
+    color: #ffffff;
     position: relative;
     font-family: 'Montserrat', sans-serif;
     margin: auto;
@@ -102,7 +103,7 @@ header{
     margin-right: 78px;
 }
 ul li{
-    margin:10px 0;
+    margin:15px 0;
 }
 
 /* HEADER STYLES 💡💡💡 */
@@ -111,6 +112,7 @@ ul li{
 
 
 aside{
+    background-color: #fefefe;
     margin-top: 30px;
     position: relative;
     display: inline-block;
@@ -175,11 +177,19 @@ line-height: 29.27px;
 
 
 .reference{
-    height: 27%;
+    height: 25%;
 }
+.sider{
+    position: absolute;
+}
+.reference ul, li, p, h4{
+    color: #000000;
+}
+
 .awwards{
     height: 15%;
 }
+
 
 
 
@@ -192,13 +202,13 @@ main{
     position: absolute;
     width: auto;
     height: 987px;
-    border: solid orangered 2px;
     display: inline-block;
 
 }
 .headers {
     position: relative;
     display:block;
+    text-align: start;
 }
 main .headers img{
     margin-right: 45px;
@@ -214,28 +224,48 @@ main .headers img{
 
 }
 .title-projects{
-    margin-left: 85px;
+    margin:30px 0 0 85px ;
 }
 .projects{
     margin: 10px;
-    width: 250px;
-    height: 250px;
+    width: 242px;
+    height: 263px;
     position: relative;
     display: inline-block;
-    border: solid orangered 2px;
+    box-shadow: 0 0 34px rgba(115, 135, 135, 0.1);
+}
+.projects :hover{
+    cursor: pointer;
 }
 
+
 main section img{
-    height: 75%;
+    height: 166px;
     width: 100%;
 }
 article{
     display: block;
     position: absolute;
 }
-section article p{
-    color: orangered;
+.text-container{
+    text-align: center;
 }
+.projects article h5, .projects article p{
+    margin-top: 15px;
+    width: 242px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19.51px;
+
+}
+.projects article p{
+    margin-top: 8px;
+    font-weight: 400;
+}
+
 
 
 /* MAIN STYLES END 💡💡💡 */
