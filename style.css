@@ -6,11 +6,6 @@ h1, h2, h3, h4, h5, h6, p,  ul, li {
 	border: 0;
 	vertical-align: baseline;
 }
-
-
-
-
-
 /* BASIC STYLES  💡💡💡*/
 
 
@@ -22,7 +17,7 @@ body{
     max-width: 1024px;
     height: 1317px;
     text-decoration: none;
-    font-family: 'Rubik Regular';
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -64,7 +59,6 @@ li{
 header{
     width: 1024px;
     height: 252px;
-    border:solid  maroon 1px;
     position: relative;
     background-color: #344eff;
 
@@ -110,7 +104,7 @@ ul li{
 
 
 
-
+/* ASIDE SECTION 💡💡💡 */
 aside{
     background-color: #fefefe;
     margin-top: 30px;
@@ -118,7 +112,6 @@ aside{
     display: inline-block;
     height: 987px;
     width: 341px;
-    border: solid blueviolet 2px;
 }
 
 aside .headers{
@@ -128,11 +121,12 @@ aside .headers{
 aside .headers img{
     margin-right: 20px;
 }
+
+/* DESCRIPTION SECTION STYLES*/
 .description{
     margin: 40px auto;
     position: relative;
     width: 300px;
-    border: solid orangered 2px;
 
 }
 .profile{
@@ -147,9 +141,10 @@ font-size: 18px;
 font-weight: 400;
 line-height: 29.27px;
 }
+/* DESCRIPTION SECTION STYLES END*/
 
 
-
+/* INTERESTS SECTION STYLES*/
 .interests{
     height: 15%;
 }
@@ -171,24 +166,69 @@ line-height: 29.27px;
 .gaming-text{
     position: absolute;
     left: -8px;
-
 }
+/* INTERESTS SECTION STYLES END*/
 
 
-
+/* REFERENCE SECTION STYLES*/
 .reference{
     height: 25%;
 }
+.reference article{
+
+    position: relative;
+    width: 100%;
+}
 .sider{
+    margin-top: 30px;
+    width: auto;
+    display:inline-block;
     position: absolute;
+    left: 27px;
 }
-.reference ul, li, p, h4{
-    color: #000000;
+.list-container{
+    display: block;
+    position: absolute;
+    right: 10px;
+
 }
+
+.desc-style{
+font-size: 18px;
+color: #060808;
+font-weight: 400;
+}
+
+.name-style{
+    font-size: 18px;
+    line-height: 30px;
+    color: #3449dc;
+    font-weight: 600;
+}
+/* REFERENCE SECTION STYLES END*/
+
+
+/* AWWARDS SECTION STYLES */
 
 .awwards{
     height: 15%;
+    margin: -15px auto;
 }
+.awwards-style{
+    font-size: 18px;
+    line-height: 20px;
+    color: #252b2d;
+    font-weight: 600;
+}
+.awwards article {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+/* AWWARDS SECTION STYLES END */
+/* ASIDE SECTION END💡💡💡 */
+
 
 
 
@@ -265,9 +305,6 @@ article{
     margin-top: 8px;
     font-weight: 400;
 }
-
-
-
 /* MAIN STYLES END 💡💡💡 */
 
 
@@ -280,7 +317,7 @@ article{
 footer {
     width: 100%;
     height: 72px;
-    background:#4c5fab;
+    background:#344eff;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -309,26 +346,3 @@ i{
 
 
 /* FOOTERS STYLES END 💡💡💡 */
-
-
-
-
-
-
-/* .button{
-    background: none;
-    border: 2px solid var(--primary);
-    color: var(--primary);
-    padding: 6px 12px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    box-shadow: 1px 2px 3px rgba(0,0,0,0.6);
-    display: inline-block;
-}
-.button:hover{
-color: #222;
-background: var(--primary);
-}*/
-
-
-
