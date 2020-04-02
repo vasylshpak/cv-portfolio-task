@@ -1,3 +1,4 @@
+/* I tried to make it almost pixel perfect as on layout */
 /* 💡💡💡💡 RESET */
 html, body, div,
 h1, h2, h3, h4, h5, h6, p,  ul, li {
@@ -277,6 +278,7 @@ main .headers img{
 .projects :hover{
     cursor: pointer;
 }
+
 
 main section img{
     height: 166px;
